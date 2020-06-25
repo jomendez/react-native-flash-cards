@@ -14,7 +14,7 @@ export class Home extends Component {
   _isMounted = false;
 
   static navigationOptions = {
-    title: 'FlashCard'
+    title: 'Deck List'
   }
 
   state = {
