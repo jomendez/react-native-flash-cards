@@ -55,7 +55,6 @@ export class Home extends Component {
     }
     return (
       <SafeAreaView style={styles.container}>
-        {/* <Text>{JSON.stringify(Object.values(decks))}</Text> */}
         <FlatList
           data={Object.values(decks)}
           renderItem={
@@ -83,7 +82,7 @@ const styles = StyleSheet.create({
     paddingRight: 10,
     backgroundColor: light
   },
-  icon:{
+  icon: {
     alignSelf: 'center',
     justifyContent: 'center',
     color: light
@@ -104,8 +103,8 @@ const styles = StyleSheet.create({
     shadowRadius: 3,
     elevation: 9,
     shadowOffset: {
-        width: 0,
-        height: 2
+      width: 0,
+      height: 2
     }
   }
 });

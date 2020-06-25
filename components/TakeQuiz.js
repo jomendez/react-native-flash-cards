@@ -3,7 +3,7 @@ import Constants from 'expo-constants'
 import React, { Component } from 'react'
 import { Dimensions, StyleSheet, Text, TouchableOpacity, TouchableWithoutFeedback, View } from 'react-native'
 import { connect } from 'react-redux'
-import { dark, secondaryLight, success, light, warning } from '../utils/colors'
+import { dark, light, secondaryLight, success, warning } from '../utils/colors'
 
 export class TakeQuiz extends Component {
 
