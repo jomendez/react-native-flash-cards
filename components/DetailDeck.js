@@ -76,7 +76,7 @@ const styles = StyleSheet.create({
     buttonBase: {
         padding: 20,
         borderRadius: 8,
-        width: width - 40,
+        width: width - 50,
         marginTop: 10,
         marginBottom: 10
     },
